@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trilogía Batman - Videoclub 2.0</title>
+		<meta charset = "UTF-8"/>
+		<link rel = "stylesheet" type = "text/css" href = "../css/batman.css" />
+		<link rel = "stylesheet" type = "text/css" href = "../css/accordion.css" />
+		<link rel = "stylesheet" type = "text/css" href = "../css/drop.css" />
+		<link rel = "stylesheet" type = "text/css" href = "../css/modalBox.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div id = "page">
+			<header>
+				<h1>Trilogía de Batman</h1>
+				<nav>
+					<div class = "dropdown">
+						<button class="dropbtn"><i class="fa fa-home"></i>Inicio</button>
+							<div class = "dropdown-content">
+								<a href="../index.html">Inicio</a>
+							</div>
+					</div>
+
+					<div class = "dropdown">
+						<button class="dropbtn"><i class="fa fa-list"></i>Todas</button>
+							<div class = "dropdown-content">
+								<a href="todas.html">Todas las películas</a>
+							</div>
+					</div>
+
+					<div class = "dropdown">
+						<button class="dropbtn"><i class="fa fa-film"></i>Estrenos</button>
+							<div class = "dropdown-content">
+								<a href="ordenadas.html">Ordenadas por año de estreno</a>
+							</div>
+					</div>
+					
+					<div class="dropdown">
+
+    					<button class="dropbtn"><mark><i class="fa fa-video-camera"></i>Saga</mark></button>
+    					<div class="dropdown-content">
+        					<a href="starwars.html">Star Wars</a>
+					        <a href="batman.html">Batman: The Dark Knight</a>
+					        <a href="capitan.html">Capitán América</a>
+					        <a href="ironman.html">Iron Man</a>
+					    </div>
+					</div>
+				</nav>
+			</header>
+
+			<content id = "content">
+				<h2>Películas</h2>
+				<button class="accordion">Batman Begins</button>
+				<div class="panel">
+				  <p>Nueva adaptación del famoso cómic. Narra los orígenes de la leyenda de Batman y los motivos que lo convirtieron en el representante del Bien en la ciudad de Gotham. Bruce Wayne vive obsesionado con el recuerdo de sus padres, muertos a tiros en su presencia. Atormentado por el dolor, se va de Gotham y recorre el mundo hasta que encuentra a un extraño personaje que lo adiestra en todas las disciplinas físicas y mentales que le servirán para combatir el Mal. Por esta razón, la Liga de las Sombras, una poderosa y subversiva sociedad secreta, dirigida por el enigmático Ra's Al Ghul, intenta reclutarlo. Cuando Bruce vuelve a Gotham, la ciudad está dominada por el crimen y la corrupción. Con la ayuda de su leal mayordomo Alfred, del detective de la policía Jim Gordon y de Lucius Fox, su colega en una Sociedad de Ciencias Aplicadas, Wayne libera a su alter ego: Batman, un justiciero enmascarado que utiliza la fuerza, la inteligencia y la más alta tecnología para luchar contra las siniestras fuerzas que amenazan con destruir la ciudad.</p>
+				  <iframe width="560" height="315" src="https://www.youtube.com/embed/neY2xVmOfUM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				  <!-- Trigger/Open The Modal -->
+					<p><button id="myBtn">Galardones/Premios</button>
+
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					  <!-- Modal content -->
+					  <div class="modal-content">
+					    <div class="modal-header">
+					      <span class="close">&times;</span>
+					      <h2>Nominaciones & Premios</h2>
+					    </div>
+					    <div class="modal-body">
+							<table>
+								  <thead>
+									<tr>
+									<th>Año</th>
+									<th>Premio</th>
+									<th>Categoría</th>
+									<th>Resultado</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>2006</td>
+										<td>BAFTA Awards</td>
+										<td>Best Production Design - Nathan Crowley</td>
+										<td style="background: #FDD; color: black; vertical-align: middle; text-align: center;" class="no table-no2">Nominated</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>BAFTA Awards</td>
+										<td>Best Achievement in Special Visual Effects</td>
+										<td style="background: #FDD; color: black; vertical-align: middle; text-align: center;" class="no table-no2">Nominated</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Costume Designers Guild Awards</td>
+										<td>Best Costume Design for a Fantasy Film - Lindy Hemming</td>
+										<td style="background: #FDD; color: black; vertical-align: middle; text-align: center;" class="no table-no2">Nominated</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Saturn Awards</td>
+										<td>Best Fantasy Film</td>
+										<td style="background: #99FF99; color: black; vertical-align: middle; text-align: center;" class="yes table-yes2">Won</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Saturn Awards</td>
+										<td>Best Director - Christopher Nolan</td>
+										<td style="background: #FDD; color: black; vertical-align: middle; text-align: center;" class="no table-no2">Nominated</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Saturn Awards</td>
+										<td>Best Screenplay - Christopher Nolan &amp; David S. Goyer</td>
+										<td style="background: #99FF99; color: black; vertical-align: middle; text-align: center;" class="yes table-yes2">Won</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Saturn Awards</td>
+										<td>Best Actor - Christian Bale</td>
+										<td style="background: #99FF99; color: black; vertical-align: middle; text-align: center;" class="yes table-yes2">Won</td>
+									</tr>
+									<tr>
+										<td>2006</td>
+										<td>Saturn Awards</td>
+										<td>Best Supporting Actor - Liam Neeson</td>
+										<td style="background: #FDD; color: black; vertical-align: middle; text-align: center;" class="no table-no2">Nominated</td>
+									</tr>
+								</tbody>
+							</table>
+					    </div>
+					    <div class="modal-footer">
+					      <h3>&copy; Copyright Wikipedia</h3>
+					    </div>
+					  </div>
+
+					</div></p>
+				</div>
+
+				<button class="accordion">Batman The Dark Knight</button>
+				<div class="panel">
+				  <p>Batman/Bruce Wayne (Christian Bale) regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart), Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos.</p>
+				  <iframe width="560" height="315" src="https://www.youtube.com/embed/EXeTwQWrcwY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+
+				<button class="accordion">Batman The Dark Knight Rises</button>
+				<div class="panel">
+				  <p>Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo. Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió sacrificarlo todo por lo que consideraba, al igual que el Comisario Gordon, un bien mayor. La mentira funciona durante un tiempo, ya que la actividad criminal de la ciudad de Gotham se ve aplacada gracias a la dura Ley Dent. Pero todo cambia con la llegada de una astuta gata ladrona que pretende llevar a cabo un misterioso plan. Sin embargo, mucho más peligrosa es la aparición en escena de Bane, un terrorista enmascarado cuyos despiadados planes obligan a Bruce a regresar de su voluntario exilio.</p>
+				  <iframe width="560" height="315" src="https://www.youtube.com/embed/GokKUqLcvD8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+
+			</content>
+
+		</div>
+		<footer>
+			<p><i class="fa fa-twitter-square"></i>c_riis16  <i class="fa fa-instagram"></i>c_riis16  <i class="fa fa-facebook-square"></i>Cristian Ayala</p>
+			<p>&copy; Copyright 2017</p>
+		</footer>
+
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].onclick = function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight){
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    } 
+			  }
+			}
+		</script>
+		
+		<script>
+		// Get the modal
+		var modal = document.getElementById('myModal');
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		    modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		    modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+		</script>
+
+	</body>
+</html>
