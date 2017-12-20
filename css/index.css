@@ -60,7 +60,7 @@ footer i {
 }
 
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 600px) {
 	h1 {
 		font-size: 300%;
 		margin-top: 225px;
