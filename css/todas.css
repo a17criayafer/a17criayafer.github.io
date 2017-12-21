@@ -114,7 +114,7 @@ h3 {
 	font-size: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
 	h1 {
 		font-size: 300%;
 		margin-top: 225px;
