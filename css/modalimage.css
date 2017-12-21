@@ -85,7 +85,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     .modal-content {
         margin: 10% auto;
         /*margin-right: 10%;*/
