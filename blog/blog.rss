@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+	<tittle>Blog</tittle>
+	<link>../index.html</link>
+	<description>None</description>
+	<item>
+		<title>Warriors vs Suns: Kerr 'dimite' en pleno partido y deja la pizarra a sus jugadores</title>
+		<link>noticia1.html</link>
+		<description>Curiosidad partido Warriors vs Suns</description>
+	</item>
+	<item>
+		<title>Mariano Rajoy: "No me gustaría ver a Neymar vestido de blanco"</title>
+		<link>noticia2.html</link>
+		<description>Rumores de Neymar Jr.</description>
+	</item>
+</channel>
+</rss>
